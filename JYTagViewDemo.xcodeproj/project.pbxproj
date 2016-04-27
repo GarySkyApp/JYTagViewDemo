@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECF59D071CD053E0008184BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF59D061CD053E0008184BC /* main.m */; };
+		ECF59D0A1CD053E0008184BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF59D091CD053E0008184BC /* AppDelegate.m */; };
+		ECF59D0D1CD053E0008184BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF59D0C1CD053E0008184BC /* ViewController.m */; };
+		ECF59D101CD053E0008184BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF59D0E1CD053E0008184BC /* Main.storyboard */; };
+		ECF59D121CD053E0008184BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF59D111CD053E0008184BC /* Assets.xcassets */; };
+		ECF59D151CD053E0008184BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF59D131CD053E0008184BC /* LaunchScreen.storyboard */; };
+		ECF59D201CD053E0008184BC /* JYTagViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF59D1F1CD053E0008184BC /* JYTagViewDemoTests.m */; };
+		ECF59D2B1CD053E0008184BC /* JYTagViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF59D2A1CD053E0008184BC /* JYTagViewDemoUITests.m */; };
+		ECF59D3B1CD05409008184BC /* JYTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF59D3A1CD05409008184BC /* JYTagView.m */; };
+		ECF59D3E1CD05532008184BC /* JYCharsSize.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF59D3D1CD05532008184BC /* JYCharsSize.m */; };
+		ECF59D411CD060C2008184BC /* CharSize.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF59D401CD060C2008184BC /* CharSize.m */; };
+		ECF59D441CD09770008184BC /* TagBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF59D431CD09770008184BC /* TagBtn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECF59D1C1CD053E0008184BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECF59CFA1CD053E0008184BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF59D011CD053E0008184BC;
+			remoteInfo = JYTagViewDemo;
+		};
+		ECF59D271CD053E0008184BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECF59CFA1CD053E0008184BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF59D011CD053E0008184BC;
+			remoteInfo = JYTagViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECF59D021CD053E0008184BC /* JYTagViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYTagViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF59D061CD053E0008184BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECF59D081CD053E0008184BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECF59D091CD053E0008184BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECF59D0B1CD053E0008184BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECF59D0C1CD053E0008184BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECF59D0F1CD053E0008184BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECF59D111CD053E0008184BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECF59D141CD053E0008184BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECF59D161CD053E0008184BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF59D1B1CD053E0008184BC /* JYTagViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYTagViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF59D1F1CD053E0008184BC /* JYTagViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTagViewDemoTests.m; sourceTree = "<group>"; };
+		ECF59D211CD053E0008184BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF59D261CD053E0008184BC /* JYTagViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYTagViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF59D2A1CD053E0008184BC /* JYTagViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTagViewDemoUITests.m; sourceTree = "<group>"; };
+		ECF59D2C1CD053E0008184BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF59D391CD05409008184BC /* JYTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTagView.h; sourceTree = "<group>"; };
+		ECF59D3A1CD05409008184BC /* JYTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTagView.m; sourceTree = "<group>"; };
+		ECF59D3C1CD05532008184BC /* JYCharsSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCharsSize.h; sourceTree = "<group>"; };
+		ECF59D3D1CD05532008184BC /* JYCharsSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCharsSize.m; sourceTree = "<group>"; };
+		ECF59D3F1CD060C2008184BC /* CharSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharSize.h; sourceTree = "<group>"; };
+		ECF59D401CD060C2008184BC /* CharSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharSize.m; sourceTree = "<group>"; };
+		ECF59D421CD09770008184BC /* TagBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagBtn.h; sourceTree = "<group>"; };
+		ECF59D431CD09770008184BC /* TagBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagBtn.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECF59CFF1CD053E0008184BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF59D181CD053E0008184BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF59D231CD053E0008184BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECF59CF91CD053E0008184BC = {
+			isa = PBXGroup;
+			children = (
+				ECF59D041CD053E0008184BC /* JYTagViewDemo */,
+				ECF59D1E1CD053E0008184BC /* JYTagViewDemoTests */,
+				ECF59D291CD053E0008184BC /* JYTagViewDemoUITests */,
+				ECF59D031CD053E0008184BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECF59D031CD053E0008184BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECF59D021CD053E0008184BC /* JYTagViewDemo.app */,
+				ECF59D1B1CD053E0008184BC /* JYTagViewDemoTests.xctest */,
+				ECF59D261CD053E0008184BC /* JYTagViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECF59D041CD053E0008184BC /* JYTagViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ECF59D381CD053E8008184BC /* JYTagView */,
+				ECF59D081CD053E0008184BC /* AppDelegate.h */,
+				ECF59D091CD053E0008184BC /* AppDelegate.m */,
+				ECF59D0B1CD053E0008184BC /* ViewController.h */,
+				ECF59D0C1CD053E0008184BC /* ViewController.m */,
+				ECF59D0E1CD053E0008184BC /* Main.storyboard */,
+				ECF59D111CD053E0008184BC /* Assets.xcassets */,
+				ECF59D131CD053E0008184BC /* LaunchScreen.storyboard */,
+				ECF59D161CD053E0008184BC /* Info.plist */,
+				ECF59D051CD053E0008184BC /* Supporting Files */,
+			);
+			path = JYTagViewDemo;
+			sourceTree = "<group>";
+		};
+		ECF59D051CD053E0008184BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECF59D061CD053E0008184BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECF59D1E1CD053E0008184BC /* JYTagViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECF59D1F1CD053E0008184BC /* JYTagViewDemoTests.m */,
+				ECF59D211CD053E0008184BC /* Info.plist */,
+			);
+			path = JYTagViewDemoTests;
+			sourceTree = "<group>";
+		};
+		ECF59D291CD053E0008184BC /* JYTagViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECF59D2A1CD053E0008184BC /* JYTagViewDemoUITests.m */,
+				ECF59D2C1CD053E0008184BC /* Info.plist */,
+			);
+			path = JYTagViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		ECF59D381CD053E8008184BC /* JYTagView */ = {
+			isa = PBXGroup;
+			children = (
+				ECF59D421CD09770008184BC /* TagBtn.h */,
+				ECF59D431CD09770008184BC /* TagBtn.m */,
+				ECF59D391CD05409008184BC /* JYTagView.h */,
+				ECF59D3A1CD05409008184BC /* JYTagView.m */,
+				ECF59D3C1CD05532008184BC /* JYCharsSize.h */,
+				ECF59D3D1CD05532008184BC /* JYCharsSize.m */,
+				ECF59D3F1CD060C2008184BC /* CharSize.h */,
+				ECF59D401CD060C2008184BC /* CharSize.m */,
+			);
+			name = JYTagView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECF59D011CD053E0008184BC /* JYTagViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF59D2F1CD053E0008184BC /* Build configuration list for PBXNativeTarget "JYTagViewDemo" */;
+			buildPhases = (
+				ECF59CFE1CD053E0008184BC /* Sources */,
+				ECF59CFF1CD053E0008184BC /* Frameworks */,
+				ECF59D001CD053E0008184BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYTagViewDemo;
+			productName = JYTagViewDemo;
+			productReference = ECF59D021CD053E0008184BC /* JYTagViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECF59D1A1CD053E0008184BC /* JYTagViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF59D321CD053E0008184BC /* Build configuration list for PBXNativeTarget "JYTagViewDemoTests" */;
+			buildPhases = (
+				ECF59D171CD053E0008184BC /* Sources */,
+				ECF59D181CD053E0008184BC /* Frameworks */,
+				ECF59D191CD053E0008184BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF59D1D1CD053E0008184BC /* PBXTargetDependency */,
+			);
+			name = JYTagViewDemoTests;
+			productName = JYTagViewDemoTests;
+			productReference = ECF59D1B1CD053E0008184BC /* JYTagViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECF59D251CD053E0008184BC /* JYTagViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF59D351CD053E0008184BC /* Build configuration list for PBXNativeTarget "JYTagViewDemoUITests" */;
+			buildPhases = (
+				ECF59D221CD053E0008184BC /* Sources */,
+				ECF59D231CD053E0008184BC /* Frameworks */,
+				ECF59D241CD053E0008184BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF59D281CD053E0008184BC /* PBXTargetDependency */,
+			);
+			name = JYTagViewDemoUITests;
+			productName = JYTagViewDemoUITests;
+			productReference = ECF59D261CD053E0008184BC /* JYTagViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECF59CFA1CD053E0008184BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Gary;
+				TargetAttributes = {
+					ECF59D011CD053E0008184BC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					ECF59D1A1CD053E0008184BC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ECF59D011CD053E0008184BC;
+					};
+					ECF59D251CD053E0008184BC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ECF59D011CD053E0008184BC;
+					};
+				};
+			};
+			buildConfigurationList = ECF59CFD1CD053E0008184BC /* Build configuration list for PBXProject "JYTagViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECF59CF91CD053E0008184BC;
+			productRefGroup = ECF59D031CD053E0008184BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECF59D011CD053E0008184BC /* JYTagViewDemo */,
+				ECF59D1A1CD053E0008184BC /* JYTagViewDemoTests */,
+				ECF59D251CD053E0008184BC /* JYTagViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECF59D001CD053E0008184BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF59D151CD053E0008184BC /* LaunchScreen.storyboard in Resources */,
+				ECF59D121CD053E0008184BC /* Assets.xcassets in Resources */,
+				ECF59D101CD053E0008184BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF59D191CD053E0008184BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF59D241CD053E0008184BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECF59CFE1CD053E0008184BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF59D411CD060C2008184BC /* CharSize.m in Sources */,
+				ECF59D3B1CD05409008184BC /* JYTagView.m in Sources */,
+				ECF59D0D1CD053E0008184BC /* ViewController.m in Sources */,
+				ECF59D3E1CD05532008184BC /* JYCharsSize.m in Sources */,
+				ECF59D0A1CD053E0008184BC /* AppDelegate.m in Sources */,
+				ECF59D071CD053E0008184BC /* main.m in Sources */,
+				ECF59D441CD09770008184BC /* TagBtn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF59D171CD053E0008184BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF59D201CD053E0008184BC /* JYTagViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF59D221CD053E0008184BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF59D2B1CD053E0008184BC /* JYTagViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECF59D1D1CD053E0008184BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF59D011CD053E0008184BC /* JYTagViewDemo */;
+			targetProxy = ECF59D1C1CD053E0008184BC /* PBXContainerItemProxy */;
+		};
+		ECF59D281CD053E0008184BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF59D011CD053E0008184BC /* JYTagViewDemo */;
+			targetProxy = ECF59D271CD053E0008184BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECF59D0E1CD053E0008184BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF59D0F1CD053E0008184BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECF59D131CD053E0008184BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF59D141CD053E0008184BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECF59D2D1CD053E0008184BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECF59D2E1CD053E0008184BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECF59D301CD053E0008184BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYTagViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmolove.love-ios.JYTagViewDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECF59D311CD053E0008184BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYTagViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmolove.love-ios.JYTagViewDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECF59D331CD053E0008184BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYTagViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmolove.love-ios.JYTagViewDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYTagViewDemo.app/JYTagViewDemo";
+			};
+			name = Debug;
+		};
+		ECF59D341CD053E0008184BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYTagViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmolove.love-ios.JYTagViewDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYTagViewDemo.app/JYTagViewDemo";
+			};
+			name = Release;
+		};
+		ECF59D361CD053E0008184BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYTagViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmolove.love-ios.JYTagViewDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYTagViewDemo;
+			};
+			name = Debug;
+		};
+		ECF59D371CD053E0008184BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYTagViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmolove.love-ios.JYTagViewDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYTagViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECF59CFD1CD053E0008184BC /* Build configuration list for PBXProject "JYTagViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF59D2D1CD053E0008184BC /* Debug */,
+				ECF59D2E1CD053E0008184BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF59D2F1CD053E0008184BC /* Build configuration list for PBXNativeTarget "JYTagViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF59D301CD053E0008184BC /* Debug */,
+				ECF59D311CD053E0008184BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECF59D321CD053E0008184BC /* Build configuration list for PBXNativeTarget "JYTagViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF59D331CD053E0008184BC /* Debug */,
+				ECF59D341CD053E0008184BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECF59D351CD053E0008184BC /* Build configuration list for PBXNativeTarget "JYTagViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF59D361CD053E0008184BC /* Debug */,
+				ECF59D371CD053E0008184BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECF59CFA1CD053E0008184BC /* Project object */;
+}
